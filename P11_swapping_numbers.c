@@ -16,7 +16,7 @@ int main()
     x = 5;
     y = 7;
     printf("Initial Values: %d , %d\n",x,y);
-    x = x+y;    //x = 12, y = 7
+    x = x + y;    //x = 12, y = 7
     y = x - y;  // x = 12, y = 12-7 = 5
     x = x - y;  // x = 12 - 5 = 7;
     printf("Swapped Values: %d , %d\n\n",x,y);
